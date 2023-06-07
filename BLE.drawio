@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2023-06-03T14:29:34.357Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="d3DjRSNLZDUaMq3svYWP" version="21.3.6" type="device">
+  <diagram name="Page-1" id="Wio_3Rwq2wQMCeCDfk6s">
+    <mxGraphModel dx="1235" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wDxOglQw0Bqs3CLtqXg6-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wDxOglQw0Bqs3CLtqXg6-1" target="wDxOglQw0Bqs3CLtqXg6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wDxOglQw0Bqs3CLtqXg6-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wDxOglQw0Bqs3CLtqXg6-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wDxOglQw0Bqs3CLtqXg6-2" target="wDxOglQw0Bqs3CLtqXg6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wDxOglQw0Bqs3CLtqXg6-2" value="Getting parameters(rssi,n,measured power) from our hardware toolkit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wDxOglQw0Bqs3CLtqXg6-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wDxOglQw0Bqs3CLtqXg6-3" target="wDxOglQw0Bqs3CLtqXg6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wDxOglQw0Bqs3CLtqXg6-3" value="Through noble package getting a characteristics JSON object." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wDxOglQw0Bqs3CLtqXg6-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wDxOglQw0Bqs3CLtqXg6-7" target="wDxOglQw0Bqs3CLtqXg6-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wDxOglQw0Bqs3CLtqXg6-7" value="Calculating approximate &lt;br&gt;proximity distance.&lt;br&gt;&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wDxOglQw0Bqs3CLtqXg6-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wDxOglQw0Bqs3CLtqXg6-9" target="wDxOglQw0Bqs3CLtqXg6-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wDxOglQw0Bqs3CLtqXg6-9" value="Displaying it on the application through web sockets and sending notifications if necessary" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="520" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wDxOglQw0Bqs3CLtqXg6-11" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="640" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
